@@ -250,7 +250,7 @@ export default {
         margin-bottom: 2%;
     }
 
-    .contentWrapper h1, .subtitle, p, button {
+    .contentWrapper h1, .subtitle, .contentWrapper p, .contentWrapper button {
         margin-left: 12%;
         opacity: 1;
     }
