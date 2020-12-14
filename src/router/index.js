@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Project2 from '../views/ProjectEx2.vue'
 
 Vue.use(VueRouter)
 
@@ -19,10 +20,15 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
+    path: '/project2',
+    name: 'Project Example 2',
+    component: Project2
+  },
+  {
     path: '/project1',
     name: 'Project Example 1',
     component: () => import('../views/ProjectEx1.vue')
-  }
+  },
 ]
 
 const router = new VueRouter({

@@ -23,7 +23,7 @@
 
     <div class="iconWrapper">
         <div class="iconCon">
-        <CarouselItem v-for="item in Items" :itemImage="item.image" :key="item.id" v-on:click.native="newItem(item); testFunction2()"/>
+            <CarouselItem v-for="item in Items" :itemImage="item.image" :key="item.id" v-on:click.native="newItem(item); testFunction2()"/>
         </div>
     </div>
   </div>
